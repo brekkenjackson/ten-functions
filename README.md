@@ -184,3 +184,4 @@ function isBoolean(input) {
 
 - Testing framework: <a href="https://github.com/jasmine/jasmine">Jasmine</a>
 - "Ten Functions" Originally Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/), adapted for use at [Codeup](https://codeup.com)
+# ten-functions

@@ -20,3 +20,71 @@
  * and
  * concat
  */
+
+
+function isTrue() {
+    if (true) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(isTrue());
+
+
+function isFalse() {
+    if (!true) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(isFalse());
+
+
+function not(x) {
+    return !x;
+}
+console.log(not());
+
+
+function addOne(x){
+    return ++x;
+}
+console.log(addOne(78));
+
+
+function isEven(x){
+    return x % 2 === 0;
+}
+console.log(isEven("6"));
+
+
+function isIdentical(x, y){
+    return (x === y);
+}
+console.log(isIdentical(33, 33));
+
+
+function isEqual(x, y){
+    return (x == y);
+}
+console.log(isEqual(33, "33"));
+
+
+function or(x, y){
+    return (x || y);
+}
+console.log(or(5, 7));
+
+
+function and(x, y){
+    return (x && y);
+}
+console.log(and(5, 7));
+
+
+function concat(str1, str2){
+    return ('' + str1 + str2); //string has to be at the beginning
+}
+console.log(concat("catch", 22 ));
